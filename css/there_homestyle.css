@@ -1,0 +1,116 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 320px;
+	position: relative;
+	overflow: hidden;
+}
+.header_img{
+	width: 100%;
+}
+.header_img>img{
+	width: 100%;
+}
+
+/*固定定位出*/
+.xuanze_gd{
+	position: fixed;
+	top: 200px;
+	width: 100%;
+	height: 50px;
+	background: blanchedalmond;
+}
+.xuanze_gd>ul{
+	display: flex;
+	justify-content: center;
+}
+.xuanze_gd>ul>li>a{
+	display: inline-block;
+	width: 100%;
+	color: #000;
+	text-decoration: none;
+	/*margin: 0 50px;*/
+	background: red;
+}
+.xuanze_gd>ul>li>a>span{
+	text-align: center;
+	font-size: 30px;
+}
+.xuanze_gd>ul>li>a>p{
+	/*text-align: center;*/
+	font-size: 15px;
+}
+/*结束*/
+
+.suyue{
+	width: 100%;
+	margin:20px auto;	
+	text-align: center;
+	cursor: default;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.suyue>span{
+	font-size: 35px;
+	color: #fff;
+	font-weight:900;
+	letter-spacing: 10px;
+}
+.suyue>p{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 10px;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+/*尾部*/ 
+.footer_myself{
+	width: 100%;
+	/*height: 1000px;*/
+	margin:  0 auto 50px;
+}
+.footer_myself>form{
+	margin: 0 auto;
+	width: 100%;
+}
+.footer_myself>form>ul{
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column;
+}
+.footer_myself>form>ul>li{
+	text-align: center;
+	width: 100%;
+	margin: 10px auto 0;
+}
+.footer_myself>form>ul>li>label{
+	width: 40%;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 25px;
+	color: #fff;
+}
+.footer_myself>form>ul>li>input[type='text']{
+	width: 60%;
+	height:40px;
+	background: #fff;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding-left:15px;
+	color: #ccc;
+}
+.footer_myself>form>ul>li>input[type='submit']{
+	width: 40%;
+	height: 50px;
+	border: 1px solid #fff;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 4px;
+	letter-spacing: 5px;
+	background: #e00001;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 20px;
+}
