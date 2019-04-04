@@ -1,0 +1,136 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 320px;
+}
+.header_backpic>img{
+	width: 100%;
+}
+/*文字区域/*/
+.nav_words{
+	margin: 20px auto;
+	width: 100%;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.nav_words>span{
+	display: block;
+	color: red;
+	font-weight: 900;
+}
+.nav_words>span:first-child{
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+.nav_words>span:nth-child(2){
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+.nav_words>ul{
+	margin-top: 20px;
+}
+.nav_words>ul>li{
+	margin-bottom:10px;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+#ts{
+	margin-top: 10px;
+}
+.nav_chinapic{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.china_words{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.china_words>p{
+	color: red;
+}
+.china_words>p:nth-child(1){
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
+.nav_chinapic>img{
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	/*position: absolute;*/
+}
+
+/*服务理念*/
+.nav_sever{
+	width: 100%;
+	margin: 30px auto 0;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.nav_sever>ul>li{
+	margin-bottom: 20px;
+}
+.nav_sever>ul>li>p{
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	color: #fff;
+	background:url(../imgs/img2/aboutme_06.jpg) no-repeat;
+}
+.nav_sever>ul>li>span{
+	line-height: 50px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.jy_words{
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.jy_words>p{
+	color: red;
+}
+.jy_words>p:nth-child(1){
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
+
+/*尾部*/
+.footer{
+	width: 100%;
+	margin: 0 auto 50px;
+	background: #ccc;
+}
+
+.footer>ul{
+	display: flex;
+	margin:0 auto;
+	justify-content: center;
+	/*align-items: center;*/
+}
+.footer>ul>li>img{	
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+.footer>ul>li>P{
+	margin-top: 50px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	cursor: default;
+}
+
+.footer>ul>li>span{
+	font-size: 12px;
+	line-height: 30px;
+
+}
