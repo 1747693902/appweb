@@ -83,3 +83,164 @@
 	padding: 5px;
 	box-sizing: border-box;
 }
+.nav_wordsT>li{
+	position: relative;
+}
+.nav_wordsT>li:first-child p{
+	position: absolute;
+	width: 25px;
+	top: 10%;
+	font-size: 12px;
+	color: #FFFFFF;
+	left: 25%;
+}
+.nav_wordsT>li:nth-child(2) p{
+	position: absolute;
+	bottom: 5px;
+	left: 5%;
+	height:20px;
+	line-height: 20px;
+	color: #FFA500;
+	width: 90%;
+	text-align: center;
+	background: rgba(0,0,1,0.8);
+}
+
+.nav_wordsT>li:nth-child(3) p{
+	position: absolute;
+	bottom: 5px;
+	left: 5%;
+	height:20px;
+	line-height: 20px;
+	color: #FFA500;
+	width: 90%;
+	text-align: center;
+	background: rgba(0,0,1,0.8);
+}
+.nav_wordsT>li:nth-child(4) p{
+	position: absolute;
+	bottom: 5px;
+	left: 5%;
+	height: 20px;
+	line-height: 20px;
+	color: #FFA500;
+	width: 90%;
+	text-align: center;
+	background: rgba(0,0,1,0.8);
+	overflow: hidden;
+}
+.nav_wordsT>li:nth-child(5) p{
+	position: absolute;
+	bottom: 5px;
+	left: 5%;
+	height: 20px;
+	line-height: 20px;
+	color: #FFA500;
+	width: 90%;
+	text-align: center;
+	background: rgba(0,0,1,0.8);
+}
+/*全新实木整装服务商*/
+.nav_words3{
+	margin-top: 20px;
+	text-align: center;
+	cursor: default;
+	margin-bottom: 20px;
+}
+.nav_words3>p{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+.nav_qx>img{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.nav_qx>ul{
+	display: flex;
+	justify-content: center;
+}
+.nav_qx>ul>li{
+	/*margin: 0 10px;*/
+}
+.nav_qx>ul>li>img{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.nav_wordsF>li{
+	position: relative;
+}
+
+.nav_wordsF>li>p{
+	position: absolute;
+	bottom: 5px;
+	left: 5%;
+	height:20px;
+	line-height: 20px;
+	color: #FFA500;
+	width: 90%;
+	text-align: center;
+	background: rgba(0,0,1,0.8);
+}
+/*高品质家具*/
+.nav_gp{
+}
+.nav_words4{
+	margin-top: 20px;
+	text-align: center;
+	cursor: default;
+}
+.nav_words4>p{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+#nav_gp>img{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#nav_gp{
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+#nav_gp>ul{
+	position: absolute;
+	top: 30px;
+	left: 5%;
+	display: flex;
+	justify-content:space-around;
+}
+#nav_gp>ul>li{
+	margin: 0 40px;
+	color: #FFA500;
+}
+/*完善的售后服务*/
+.footer{
+	width: 100%;
+	overflow: auto;
+	height: 300px;
+}
+.footer>ul{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	cursor: default;
+}
+.footer>ul>li{
+	text-align: center;
+	line-height: 15px;
+	width: 70px;
+	height:70px;
+	border: 1px solid #000;
+	border-radius:50%;
+	margin: 0 5px;
+}
+.footer>ul>li>p{
+	padding:10px 0 8px;
+	font-size: 18px;
+	color: #FFA500;
+}

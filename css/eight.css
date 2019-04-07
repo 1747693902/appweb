@@ -1,0 +1,98 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 320px;
+	margin-bottom: 100px;
+}
+.header_imge>img{
+	width: 100%;
+}
+/*查找*/
+.nav_search{
+	text-align: center;
+	overflow: auto;
+	width: 95%;
+	margin: 10px auto 0;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+.nav_search>input{
+	outline-style: none;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+.nav_search>span{
+	font-size: 20px;
+	margin-left: 20px;
+	color: #666;
+}
+/*人物简绍*/
+.nav_int{
+	margin-top: 10px;
+	overflow: auto;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	box-shadow: 1px 5px 15px #ccc;
+	
+}
+.nav_int>dl{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.nav_int>dl>dd>img{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.nav_words1{
+	font-size: 25px;
+	padding-right: 15px;
+}
+.nav_int>dl>dd>ul>li{
+	margin-top: 15px;
+	font-size: 18px;
+}
+.nav_wordcolor{
+	color: #FFA500;
+	font-weight: 500;
+}
+/*设计师*/
+.nav_sjs{
+	width: 100%;
+	margin: 10px auto 0;
+}
+.nav_sjs>ul{
+	display: flex;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+.nav_sjs>ul>li{
+	position: relative;
+	width: 50%;
+}
+.nav_sjs>ul>li>p{
+	position: absolute;
+	bottom: 10px;
+	left: 5%;
+	height:35px;
+	line-height: 35px;
+	color: #FFA500;
+	width: 90%;
+	text-align: center;
+	background: rgba(0,0,1,0.8);
+	cursor: default;
+}
+.nav_sjs>ul>li>p>span{
+	font-size: 18px;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+.nav_sjs>ul>li>img{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
