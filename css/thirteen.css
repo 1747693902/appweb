@@ -1,0 +1,121 @@
+.container{
+	width: 100%;
+	max-width: 800px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.header_pic12>img{
+	width: 100%;
+}
+.nav_conter{
+	margin-top: 20px;
+	overflow: auto;
+}
+.nav_conter>ul{
+	display: flex;
+	justify-content: space-between;
+}
+.nav_conter>ul>li{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.nav_conter>ul>li>span:first-child{
+	font-size: 20px;
+	font-weight: 900;
+	cursor: default;
+}
+.nav_conter>ul>li>a{
+	display: inline-block;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background: #066FF5;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 20px;
+}
+/*加盟流程*/
+.banner_jf{
+	margin-top: 30px;
+	overflow: auto;
+}
+.banner_jf>p{
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.banner_jf>p:first-child{
+	text-align: center;
+}
+.banner_jf>p:first-child>span:first-child{
+	font-size: 20px;
+	line-height: 40px;
+	color: #000;
+	font-weight: 900;
+}
+.banner_jf>dl{
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.banner_jf>dl>dt{
+	font-size: 15px;
+	font-weight: 900;	
+	margin-bottom: 10px;		
+}
+.banner_jf>img{
+	padding: 15px;
+	box-sizing: border-box;
+	width: 100%;
+}
+/*合作*/
+.banner_hz{
+	margin-top: 10px;
+	overflow: auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.banner_hz>p{
+	margin: 10px 0;
+}
+.banner_hz>p>span:first-child{
+	color: #666;
+}
+.banner_hz>p>span>a{
+	text-decoration: none;
+	color: #000;
+}
+/*网站首页*/
+.banner_sq{
+	margin: 10px 0 5px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(0,0,1,0.8);
+}
+.banner_sq>ul{
+	display: flex;
+	justify-content: space-between;
+}
+.banner_sq>ul>li{
+	box-sizing: border-box;
+	width: 50%;
+	text-align: center;
+}
+.banner_sq>ul>li:first-child{
+	border-right: 1px solid #fff;
+}
+.banner_sq>ul>li>a{
+	font-size: 18px;	
+	color: #fff;
+	text-decoration: none;
+}
+/*尾部*/
+.footer{
+	width: 100%;
+	background: rgba(0,0,1,0.8);
+}
+.footer>img{
+	width: 100%;
+}
