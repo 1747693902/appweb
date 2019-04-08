@@ -1,0 +1,222 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 320px;
+}
+.header_img>img{
+	width: 100%;
+}
+/*田田教育*/
+.banner_lis{
+	margin-top: 10px;
+	overflow: auto;
+	width: 100%;
+	background: linear-gradient(#03A0E8 ,#066FF5);
+}
+.banner_lis>ul{
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-around;
+}
+.banner_lis>ul>li>a{
+	text-decoration: none;
+	color: #fff;
+	font-size-adjust: 15px;
+}
+/*学前教育*/
+.banner_xq{
+	margin-top: 10px;
+	overflow: auto;
+	width: 100%;
+	background: #fff;
+}
+.banner_xq>ul{
+	margin: 15px auto ;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.banner_xq>ul>li{
+	width: 25%;
+}
+.banner_xq>ul>li>a{
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+}
+.banner_xq>ul>li>a>img{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.banner_xq>ul>li>a>p{
+	margin: 10px 0;
+}
+/*热门活动*/
+.banner_rm{
+	margin-top: 10px;
+	overflow: auto;
+	background: #fff;
+}
+.banner_rm>ul{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.banner_rm>ul>li:first-child>span{
+	vertical-align: bottom;
+	font-size: 18px;
+	cursor: default;
+}
+.banner_rm>ul>li:last-child{
+	margin-top: 10px;
+}
+.banner_rm>ul>li:last-child>a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 15px;
+	padding-right: 15px;
+}
+.banner_rm>img{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin:10px 0;
+}
+/*备考专区*/
+.banner_rm>dl{
+	margin: 15px auto ;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.banner_rm>dl>dd{
+	width: 33.3%;
+}
+.banner_rm>dl>dd>a{
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+}
+.banner_rm>dl>dd>a>img{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.banner_rm>dl>dd>a>p{
+	margin: 10px 0;
+}
+/*联系电话区域*/
+.banner_phone{
+	width: 100%;
+	margin: 10px auto;
+	/*background: #fff;*/
+	text-align: center;
+}
+.banner_phone>img{
+	width: 80%;
+	padding: 10px 0;
+}
+/*田田教师*/
+.banner_th{
+	margin-top: 10px;
+	overflow: auto;
+	background: #fff;
+}
+.banner_th>ul{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.banner_th>ul>li:first-child>span{
+	vertical-align: bottom;
+	font-size: 18px;
+	cursor: default;
+}
+.banner_th>ul>li:last-child{
+	margin-top: 10px;
+}
+.banner_th>ul>li:last-child>a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 15px;
+	padding-right: 15px;
+}
+.banner_th>dl{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+}
+.banner_th>dl>dd{
+	width: 25%;
+	text-align: center;
+}
+.banner_th>dl>dd>a{
+	text-decoration: none;
+	color: #666;
+}
+.banner_th>dl>dd>a>img{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+/*田田资讯*/
+.banner_zx{
+	margin-top: 10px;
+	overflow: auto;
+	background: #fff;
+	padding-bottom: 15px;
+}
+.banner_zx>ul{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.banner_zx>ul>li:first-child>span{
+	vertical-align: bottom;
+	font-size: 18px;
+	cursor: default;
+}
+.banner_zx>ul>li:last-child{
+	margin-top: 10px;
+}
+.banner_zx>ul>li:last-child>a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 15px;
+	padding-right: 15px;
+}
+.banner_zx>dl{
+	display: flex;
+	flex-wrap: wrap;
+}
+.banner_zx>dl>dd{
+	margin-left: 15px;
+	width: 40%;
+	margin-top: 10px;
+}
+.banner_zx>dl>dd>a>img{
+	width: 100%;
+}
+.banner_zx>dl>dd>a{
+	text-decoration: none;
+	
+}
+.banner_zx>dl>dd>a>p{
+	color:#000 ;
+}
+/*尾部*/
+.footer{
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+.footer>p{
+	margin: 15px 0;
+	color: #666;
+}
+.footer>p>a{
+	text-decoration: none;
+	color: #666;
+}
