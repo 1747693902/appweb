@@ -1,0 +1,162 @@
+.container{
+	width: 100%;
+	max-width: 800px;
+	min-width: 320px;
+	margin: 0 auto;
+	margin-bottom: 10px; 
+}
+.header_imge1>img{
+	width: 100%;
+	padding:0 5px;
+	box-sizing: border-box;
+}
+.nav_tb{
+	margin-top: 10px;
+	overflow: auto;
+}
+.nav_tb>ul{
+	display: flex;
+	justify-content: space-around;
+}
+.nav_tb>ul>li>a>img{
+	width: 100%;
+}
+.nav_tb>ul>li>a{
+	text-decoration: none;
+	color: #666;
+}
+.nav_tb>ul>li>a>p{
+	text-align: center;
+}
+/*产品展示*/
+
+.nav_cp{
+	margin-top: 10px;
+}
+.nav_cp>img{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.nav_lis{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.nav_lis>li{
+	margin: 0 auto;
+	text-align: center;
+	width: 25%;
+	cursor: pointer;
+	font-size: 18px;
+}
+.nav_lis>li:nth-child(1){
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+.nav_lis>li:nth-child(2){
+	border-bottom: 1px solid #666;
+}
+.nav_lis>li:nth-child(3){
+	border-bottom: 1px solid #666;
+}
+.nav_lis>li:nth-child(4){
+	border-bottom: 1px solid #666;
+}
+.nav_lispic{
+	margin: 10px 0;
+	display: flex;	
+	justify-content: space-around;
+}
+.nav_lispic>li>img{
+	width: 100%;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+/*新闻资讯*/
+.nav_news{
+	overflow: auto;
+	width: 100%;
+	margin-top: 10px;
+	background: #666666;
+	box-sizing: border-box;
+}
+.nav_img{
+	margin-top: 10px;
+}
+.nav_img>img{
+	
+	width: 100%;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+.nav_lisT{
+	display: flex;
+	justify-content: space-around;
+	cursor: default;
+}
+.nav_lisT>li:first-child{
+	line-height: 50px;
+}
+.nav_lisT>li>span:first-child{
+	color: #fff;
+	font-size: 20px;
+	
+}
+.nav_lisT>li>span:last-child{
+	color: #fff;
+	overflow: hidden;
+}
+
+.nav_slis{
+	display: flex;
+	align-items: center;
+	
+}
+.nav_slis>li{
+	margin: 0 2px;
+	margin-top: 13px;
+}
+.nav_slis>li>a{
+	display: inline-block;
+	width: 55px;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	color: #fff;
+	height: 25px;
+	border: 1px solid #FFA500;
+	border-radius: 20px;
+}
+.nav_slis>li>a.nav_baccolor{
+	background: #fff;
+	color: #666;
+}
+
+/*阅读量*/
+.nav_yd{
+	width: 100%;
+	overflow: auto;
+	margin-top: 10px;
+}
+.nav_ydone{
+	display: flex;
+	justify-content: space-around;
+	cursor: default;
+}
+.nav_ydone>li>h4{
+	font-size: 15px;
+	margin: 5px 0;
+}
+.nav_ydsmall{
+	background: #222;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	padding: 0 15px;
+}
+.nav_ydsmall>li>span{
+	font-size: 20px;
+}
+/*加盟店*/
